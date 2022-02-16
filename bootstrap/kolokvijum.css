@@ -23,25 +23,25 @@ body {
 }
 
 #glavna {
-    width: 130px;
+    width: 150px;
     height: 40px;
     margin: 10px;
 }
 
 #meni {
-    width: 80px;
-    height: 40px;
-    margin: 10px;
-}
-
-#kontakt {
     width: 100px;
     height: 40px;
     margin: 10px;
 }
 
+#kontakt {
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+}
+
 #dodatne {
-    width: 180px;
+    width: 200px;
     height: 40px;
     margin: 10px;
 }
@@ -84,7 +84,6 @@ body {
 
 #srz {
     width: 85.8%;
-    border: 1px solid black;
     text-align: center;
     padding-top: 30px;
     display: flex;
@@ -101,7 +100,6 @@ body {
 
 #tp {
     position: relative;
-    border: 1px solid black;
     width: 85.8%;
     height: 300px;
     display: flex;
@@ -124,7 +122,6 @@ body {
 #gradovi {
     width: 100%;
     height: 350px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     flex-direction: column;
