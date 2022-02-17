@@ -206,7 +206,6 @@ li {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    border: 1px solid black;
 }
 
 #dzemail {
