@@ -192,6 +192,19 @@
         border-radius: 15px;
         box-shadow: 0 0 3px 3px #c5c5c5;
         background-color: #fff;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .left {
+        width: 900px;
+        height: 100%;
+    }
+    
+    .right {
+        height: 100%;
+        width: 300px;
     }
     
     .form-select {
@@ -203,7 +216,6 @@
     .prvi-red {
         width: 850px;
         height: 100%;
-        border: 1px solid black;
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
@@ -285,4 +297,181 @@
         background-color: red;
         width: 100px;
         height: 100%;
+    }
+    
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: space-around;
+    }
+    
+    .right form .btn-secondary {
+        background-color: #ededed;
+        color: black;
+        width: 250px;
+        text-transform: uppercase;
+    }
+    
+    .right form {
+        margin-top: 25px;
+    }
+    
+    #pretraga {
+        margin-bottom: 10px;
+    }
+    
+    .right form .btn-outline-warning {
+        text-transform: uppercase;
+        width: 250px;
+        margin-top: 10px;
+    }
+    
+    .oglasi {
+        width: 1400px;
+        margin: 0 auto;
+        border: 2px solid black;
+        height: 100vh;
+        margin-top: 40px;
+    }
+    
+    #poslednje-gledani {
+        font-size: 20px;
+        font-family: Arial;
+        position: relative;
+        left: 1270px;
+        top: 30px;
+    }
+    
+    .oglasi .levi {
+        width: 1000px;
+        border: 2px solid black;
+        height: 100%;
+    }
+    
+    .odabrano {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    #bmw-x {
+        margin-top: 5px;
+    }
+    
+    .oglasi .levi .odabrano p {
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+    
+    .levi .prikaz {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 13px;
+    }
+    
+    .strane ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .strane ul li {
+        list-style-type: none;
+        position: relative;
+        right: 25px;
+        top: 10px;
+    }
+    
+    .strane ul li a {
+        width: 100px;
+        height: 5px;
+        text-decoration: none;
+        padding: 5px 10px 5px 10px;
+        color: black;
+        margin-left: 5px;
+    }
+    
+    #prvi {
+        background-color: #8b8b8b;
+        color: #fff;
+    }
+    
+    .strane li p {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    
+    #zagrada {
+        margin-top: 30px;
+    }
+    
+    .strane .sortiranje {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        left: 400px;
+        margin-left: 20px;
+    }
+    
+    .strane .sortiranje li p {
+        margin-right: 20px;
+    }
+    
+    .kartice .card img {
+        width: 250px;
+        position: relative;
+        bottom: 200px;
+    }
+    
+    .card .card-body .card-text {
+        position: relative;
+    }
+    
+    .card .card-body .card-text span {
+        font-size: 20px;
+    }
+    
+    .card p {
+        margin-left: 280px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .kartice .card {
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        margin-left: 20px;
+        ;
+    }
+    
+    .card .card-body .card-title {
+        position: relative;
+        top: 5px;
+    }
+    
+    .kartice .bmw118d {
+        margin-left: 300px;
+    }
+    
+    .oglasi .desni {
+        width: 400px;
+        height: 100%;
+        border: 2px solid black;
+    }
+    
+    .oglasi {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .oglasi .desni ul li {
+        list-style-type: none;
+        margin-top: 10px;
+    }
+    
+    .oglasi .desni ul li a {
+        text-decoration: none;
     }
