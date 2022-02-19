@@ -1,0 +1,288 @@
+    body {
+        min-height: 100vh;
+    }
+    
+    header {
+        width: 100%;
+        height: 110px;
+    }
+    
+    .pre-header {
+        background-color: black;
+        border: 2px solid black;
+        height: 70px;
+    }
+    
+    .pre-header .container .row .col-md-4 img {
+        margin-top: 15px;
+    }
+    
+    .fa-brands {
+        color: #afafaf;
+    }
+    
+    .pre-header .container .row .col-md-4 .icons li {
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .prijavi-se-btn a {
+        background-color: black;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        list-style: none;
+        font-size: small;
+    }
+    
+    .prijavi-se-btn {
+        text-align: center;
+        padding-top: 5px;
+    }
+    
+    .prijavi-se-btn a span {
+        color: orange;
+    }
+    
+    .registruj-se-btn {}
+    
+    .col-md-4 .button li {
+        display: inline-block;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+        height: inherit;
+    }
+    
+    .button .registruj-se-btn a {
+        color: white;
+        background-color: black;
+        border: 2px solid black;
+        text-decoration: none;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .button .postavi-oglas-btn a {
+        color: white;
+        background-color: #3399ff;
+        padding: 5px;
+        border: 2px solid black;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    
+    .button .postavi-oglas-btn a:hover {
+        color: #3399ff;
+        background-color: white;
+    }
+    
+    .main-nav {
+        background-color: #e9e9e9;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fa-solid {
+        color: #444444;
+        list-style-type: none;
+    }
+    
+    .pretraga li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #444444;
+        transition: 0.3s;
+        padding: 5px;
+    }
+    
+    .pretraga li a:hover {
+        background-color: #c7c7c7;
+        color: #444444;
+    }
+    
+    .main-nav .pretraga {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        height: 50px;
+    }
+    
+    .main-nav .pretraga li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        margin: 0 10px;
+    }
+    
+    .icons li i {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    
+    .naslovna {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .bmw {
+        margin-top: 10px;
+        display: flex;
+        align-items: space-between;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    
+    .bmw li a {
+        padding: 5px;
+        text-decoration: none;
+    }
+    
+    .bmw li {
+        list-style-type: none;
+        position: relative;
+        left: 190px;
+    }
+    
+    .bmw li i {
+        font-size: 12px;
+        color: #69ace7;
+        text-decoration: none;
+    }
+    
+    .footer {
+        background-image: url(pozadina.png);
+        height: 400px;
+    }
+    
+    .bmw-naslov {
+        position: relative;
+        left: 230px;
+        top: 20px;
+    }
+    
+    .podaci {
+        width: 1200px;
+        height: 250px;
+        border: 1px solid black;
+        margin: 0 auto;
+        position: relative;
+        top: 30px;
+        right: 130px;
+        border-radius: 15px;
+        box-shadow: 0 0 3px 3px #c5c5c5;
+        background-color: #fff;
+    }
+    
+    .form-select {
+        width: 250px;
+        border-radius: 10px;
+        height: 40px;
+    }
+    
+    .prvi-red {
+        width: 850px;
+        height: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-top: 15px;
+    }
+    
+    .prvi-red li {
+        list-style-type: none;
+    }
+    
+    .prvi-red li i {
+        color: #9ac064;
+        padding-left: 50px;
+        padding-top: 5px;
+    }
+    
+    .smanjiti {
+        width: 130px;
+        border-radius: 5px;
+    }
+    
+    .drugi-red {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        bottom: 190px;
+        width: 1200px;
+        right: 30px;
+    }
+    
+    .drugi-red li {
+        list-style: none;
+        margin-left: 10px;
+    }
+    
+    .drugi-red li .fa-solid {
+        color: #f1a41a;
+    }
+    
+    .treci-red {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        bottom: 190px;
+        right: 30px;
+    }
+    
+    .treci-red li {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+    
+    .cetvrti-red li a span {
+        color: #db5d40;
+        font-size: 20px;
+    }
+    
+    .cetvrti-red li {
+        list-style-type: none;
+    }
+    
+    .cetvrti-red {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        bottom: 180px;
+        width: 845px;
+    }
+    
+    .cetvrti-red li a {
+        text-decoration: none;
+    }
+    
+    .dugmad {
+        border: 1px solid black;
+        background-color: red;
+        width: 100px;
+        height: 100%;
+    }

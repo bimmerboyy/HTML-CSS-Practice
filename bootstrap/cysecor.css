@@ -1,58 +1,59 @@
     * {
-    margin: 0;
-    padding: 0;
-}
-
-.pre-header {
-    background-color: black;
-    height: 60px;
-    color: #fff;
-    padding-top: 15px;
-}
-
-.pre-header .secondary-menu {
-    list-style-type: none;
-}
-
-.pre-header .secondary-menu li a {
-    color: #9a9c9d;
-    text-decoration: none;
-}
-
-.pre-header .secondary-menu li {
-    display: inline-block;
-    margin-left: 15px;
-    text-transform: uppercase;
-}
-
-.main-nav .main-menu {
-    list-style: none;
-    margin-top: 20px;
-}
-
-.main-nav .main-menu li {
-    display: inline-block;
-    margin-left: 15px;
-}
-
-.main-nav img {
-    margin-top: 10px;
-}
-
-.main-nav .main-menu li a {
-    color: #8e8e8e;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.main-nav .main-menu .free-quote-btn a {
-    background-color: #4c36f2;
-    border: 1px solid #4c36f2;
-    text-decoration: none;
-    padding: 10px;
-    color: #fff;
-    transition: 0.3s
-}
-
-.main-nav .main-menu .free-quote-btn a:hover {
-    color: 4#c36
+        margin: 0;
+        padding: 0;
+    }
+    
+    .pre-header {
+        background-color: black;
+        height: 60px;
+        color: #fff;
+        padding-top: 15px;
+    }
+    
+    .pre-header .secondary-menu {
+        list-style-type: none;
+    }
+    
+    .pre-header .secondary-menu li a {
+        color: #9a9c9d;
+        text-decoration: none;
+    }
+    
+    .pre-header .secondary-menu li {
+        display: inline-block;
+        margin-left: 15px;
+        text-transform: uppercase;
+    }
+    
+    .main-nav .main-menu {
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    .main-nav .main-menu li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    
+    .main-nav img {
+        margin-top: 10px;
+    }
+    
+    .main-nav .main-menu li a {
+        color: #8e8e8e;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .main-nav .main-menu .free-quote-btn a {
+        background-color: #4c36f2;
+        border: 1px solid #4c36f2;
+        text-decoration: none;
+        padding: 10px;
+        color: #fff;
+        transition: 0.3s
+    }
+    
+    .main-nav .main-menu .free-quote-btn a:hover {
+        color: 4#c36;
+    }
