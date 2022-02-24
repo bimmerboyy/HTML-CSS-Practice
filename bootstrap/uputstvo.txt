@@ -1,0 +1,8 @@
+pozadina: #303d57
+crvena: #db1d31
+tamno sivo: #263045
+boja teksta: #888888
+font: Verdana, 14px
+drugi font: Georgia
+line-height: 1.6
+sirina: 978px;

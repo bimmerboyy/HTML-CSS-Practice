@@ -1,0 +1,8 @@
+Meni+Hover(2)
+Slika pozadina(1)
+Dva dugmeta i tekst + hover(3)
+Forma za login(2.5)
+Logo imi (1)
+Tabela (float right)(3)
+3 kolone(3)
+Footer(0.5)
