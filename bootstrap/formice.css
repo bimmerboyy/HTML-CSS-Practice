@@ -1,0 +1,19 @@
+body .forme {
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forme .blok {
+    width: 400px;
+    display: block;
+    margin-left: 200px;
+    margin-top: 10px;
+}

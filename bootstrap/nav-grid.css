@@ -1,0 +1,45 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    height: 70px;
+    grid-column-gap: 100px;
+    background-color: black;
+}
+
+.logo {
+    width: 300px;
+    height: 70px;
+}
+
+.dugmad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 500px;
+    grid-row: 1/2;
+    grid-column: 4/8;
+}
+
+.dugmad .btn {
+    border-radius: 50px;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+}
+
+.dugmad .btn:hover {
+    background-color: #0783a2;
+}
+
+nav .logo h2 {
+    text-transform: uppercase;
+    display: grid;
+    color: white;
+}
+
+nav .logo {
+    justify-self: center;
+}

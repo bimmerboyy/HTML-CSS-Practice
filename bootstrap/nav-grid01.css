@@ -1,0 +1,67 @@
+nav {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 450px;
+}
+
+.logo {
+    position: relative;
+    left: 150px;
+    width: 300px;
+    height: 70px;
+}
+
+.dugmad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+}
+
+.dugme {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+}
+
+.dugmad .btn {
+    border-radius: 50px;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+}
+
+.dugmad .btn:hover {
+    background-color: #0783a2;
+}
+
+nav .logo h2 {
+    text-transform: uppercase;
+    display: grid;
+    color: white;
+}
+
+.dugme .btn {
+    border-radius: 50px;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+}
+
+.dugme .btn:hover {
+    background-color: #0783a2;
+}
+
+.dugmad .btn {
+    margin-left: 20px;
+}
