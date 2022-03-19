@@ -210,3 +210,34 @@ nav .home .btn:hover {
     width: 100%;
     height: 30px;
 }
+
+.zajednicki {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.zajednicki .veci {
+    width: 1200px;
+    height: 700px;
+    border: 1px solid black;
+}
+
+.zajednicki .manji {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.zajednicki .veci .product {
+    height: 70px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.zajednicki .veci .product .proizvod {
+    width: 300px;
+    height: 70px;
+}
