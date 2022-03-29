@@ -51,6 +51,7 @@ body {
 
 .second-nav {
     display: flex;
+    justify-content: space-between;
     height: 70px;
     width: 100%;
     border: 1px solid black;
@@ -70,7 +71,52 @@ body {
 }
 
 .second-nav .new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    width: 600px;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 500px;
     height: 100%;
     border: 1px solid black;
+}
+
+.second-nav .search .fa-magnifying-glass {
+    position: absolute;
+    top: 25px;
+    right: 330px;
+}
+
+.search input {
+    border-radius: 50px;
+    background-color: #f5f5f5;
+    width: 150px;
+    height: 40px;
+}
+
+.second-nav .search .fa-heart {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.second-nav .search .fa-bag-shopping {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.second-nav .new .btn {
+    background-color: #fff;
+}
+
+.second-nav .new .btn:hover {
+    border-bottom: 1px solid black;
 }
