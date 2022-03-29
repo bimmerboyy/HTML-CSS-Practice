@@ -1,0 +1,160 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --p: 100px;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 var(--p);
+}
+
+nav .left {
+    color: #5561ec;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.active {
+    color: #5561ec;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+
+nav ul li {
+    display: block;
+    ;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul .last {
+    display: block;
+    border: 2px solid #5561ec;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #5561ec;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--p);
+}
+
+main>div {
+    width: 40%;
+}
+
+main img {
+    max-width: 100%;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgb(59, 56, 104);
+}
+
+main p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+main svg {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    fill: #5561ec;
+    color: rgb(59, 56, 104);
+    vertical-align: middle;
+}
+
+main button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: #5561ec;
+    margin: 20px 0;
+}
+
+main button:last-of-type {
+    color: #5561ec;
+    border: 2px solid #5561ec;
+    background-color: white;
+    margin-left: 20px;
+}
+
+footer {
+    padding: 0 var(--p);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #ebebeb;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer svg {
+    fill: rgb(59, 56, 104);
+    width: 20px;
+    height: 20px;
+}
+
+footer .img-cont {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d9d8d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
