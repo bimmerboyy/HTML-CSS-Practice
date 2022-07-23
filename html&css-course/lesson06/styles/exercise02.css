@@ -1,0 +1,19 @@
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.model {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.order>span {
+    text-decoration: underline;
+}
+
+.order {
+    font-family: 'Montserrat', sans-serif;
+}
