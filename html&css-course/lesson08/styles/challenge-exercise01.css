@@ -1,0 +1,31 @@
+.name {
+    width: 100px;
+    height: 27px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.email {
+    display: block;
+    width: 210px;
+    height: 27px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+button {
+    padding-left: 83px;
+    padding-right: 83px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3a74e8;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
