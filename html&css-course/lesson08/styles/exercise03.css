@@ -1,0 +1,19 @@
+input {
+    width: 400px;
+    height: 30px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 15px;
+    /*box-shadow: -15px -15px -15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -5px -5px -5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1), */
+    box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.07), 3px 3px 5px rgba(0, 0, 0, 0.07);
+    padding-left: 20px;
+    margin-left: 350px;
+}
+
+img {
+    display: block;
+    width: 200px;
+    margin-left: 450px;
+    margin-bottom: 0;
+}
