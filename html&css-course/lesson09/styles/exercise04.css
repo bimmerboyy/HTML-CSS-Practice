@@ -1,0 +1,30 @@
+* {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+div {
+    background-color: #1d1c1e;
+    display: inline-block;
+    height: 130px;
+}
+
+p {
+    font-family: Arial;
+}
+
+.install {
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.add {
+    color: #7f7c7f;
+    width: 370px;
+    padding-left: 15px;
+    ;
+}
