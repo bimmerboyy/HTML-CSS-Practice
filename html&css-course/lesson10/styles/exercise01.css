@@ -1,0 +1,54 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: Arial;
+}
+
+.main-div {
+    border: 2px solid blue;
+    height: 80px;
+    width: 158px;
+}
+
+.oliver-image {
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.profile-picture {
+    display: inline-block;
+    width: 70px;
+    border: 2px solid blue;
+    height: 100%;
+    margin-right: 0;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid blue;
+    height: 100%;
+}
+
+.name {
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+.cat {
+    display: inline-block;
+    vertical-align: top;
+    color: #858385;
+    border: 2px solid red;
+    width: 60px;
+}
+
+.popular {
+    vertical-align: top;
+    color: #858385;
+    border: 2px solid red;
+}
