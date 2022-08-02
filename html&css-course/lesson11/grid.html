@@ -19,8 +19,7 @@
         }
         
         .thumbnail {
-            width: 350px;
-            display: block;
+            width: 100%;
             /*
             height: 300px;
             object-fit: cover;
@@ -45,9 +44,19 @@
         }
         
         .video-preview {
+            /*
             display: inline-block;
             vertical-align: top;
             margin-right: 15px;
+            width: 350px;
+            */
+        }
+        
+        .video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
         }
         
         .video-author,
@@ -99,39 +108,122 @@
 <body>
     <!--Nikola je uskocio u pomoc-->
 
-    <div class="video-preview">
-        <div class="thumbnail-row">
-            <img class="thumbnail" src="images/frontend.webp" alt="Image here">
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/frontend.webp" alt="Image here">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="images/supersimpledev.jpg" class="profile-picture" alt="" aria-label="Default select example">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">SPAVAJ DUPLO BOLJE POMOĆU OVE JEDNOSTAVNE NAVIKE!</p>
+                    <p class="video-author">vuk1vuk</p>
+                    <p class="video-stats">33 хиљ. приказа &#183; пре 1 године</p>
+                </div>
+            </div>
         </div>
 
-        <div class="video-info-grid">
-            <div class="channel-picture">
-                <img src="images/supersimpledev.jpg" class="profile-picture" alt="" aria-label="Default select example">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/vuk1vuk.webp" alt="Image here">
             </div>
-            <div class="video-info">
-                <p class="video-title">SPAVAJ DUPLO BOLJE POMOĆU OVE JEDNOSTAVNE NAVIKE!</p>
-                <p class="video-author">vuk1vuk</p>
-                <p class="video-stats">33 хиљ. приказа &#183; пре 1 године</p>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="images/vuk.jpg" id="vuk" class="profile-picture" alt="" aria-label="Default select example">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">HTML & CSS Full Course - Beginner to Pro (2022)</p>
+                    <p class="video-author">SuperSimpleDev</p>
+                    <p class="video-stats">1,2 мил. приказа &#183;пре 5 месеци</p>
+                </div>
             </div>
         </div>
+
+
+        <!--Jos dva-->
+
+
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/frontend.webp" alt="Image here">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="images/supersimpledev.jpg" class="profile-picture" alt="" aria-label="Default select example">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">SPAVAJ DUPLO BOLJE POMOĆU OVE JEDNOSTAVNE NAVIKE!</p>
+                    <p class="video-author">vuk1vuk</p>
+                    <p class="video-stats">33 хиљ. приказа &#183; пре 1 године</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/vuk1vuk.webp" alt="Image here">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="images/vuk.jpg" id="vuk" class="profile-picture" alt="" aria-label="Default select example">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">HTML & CSS Full Course - Beginner to Pro (2022)</p>
+                    <p class="video-author">SuperSimpleDev</p>
+                    <p class="video-stats">1,2 мил. приказа &#183;пре 5 месеци</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Jos dva-->
+
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/frontend.webp" alt="Image here">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="images/supersimpledev.jpg" class="profile-picture" alt="" aria-label="Default select example">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">SPAVAJ DUPLO BOLJE POMOĆU OVE JEDNOSTAVNE NAVIKE!</p>
+                    <p class="video-author">vuk1vuk</p>
+                    <p class="video-stats">33 хиљ. приказа &#183; пре 1 године</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/vuk1vuk.webp" alt="Image here">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="images/vuk.jpg" id="vuk" class="profile-picture" alt="" aria-label="Default select example">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">HTML & CSS Full Course - Beginner to Pro (2022)</p>
+                    <p class="video-author">SuperSimpleDev</p>
+                    <p class="video-stats">1,2 мил. приказа &#183;пре 5 месеци</p>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
-    <div class="video-preview">
-        <div class="thumbnail-row">
-            <img class="thumbnail" src="images/vuk1vuk.webp" alt="Image here">
-        </div>
 
-        <div class="video-info-grid">
-            <div class="channel-picture">
-                <img src="images/vuk.jpg" id="vuk" class="profile-picture" alt="" aria-label="Default select example">
-            </div>
-            <div class="video-info">
-                <p class="video-title">HTML & CSS Full Course - Beginner to Pro (2022)</p>
-                <p class="video-author">SuperSimpleDev</p>
-                <p class="video-stats">1,2 мил. приказа &#183;пре 5 месеци</p>
-            </div>
-        </div>
-    </div>
 
 </body>
 
