@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+p {
+    font-family: Arial;
+}
+
+.info {
+    width: 300px;
+    height: 100px;
+    border: 1px solid rgb(178, 178, 178);
+}
+
+.home {
+    width: 100%;
+    border-left: transparent;
+    border-right: transparent;
+    height: 31.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.value {
+    background-color: #426cee;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 22px;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.numbers {
+    color: white;
+    font-weight: bold;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.text {
+    margin-top: 5px;
+    margin-left: 5px;
+}
