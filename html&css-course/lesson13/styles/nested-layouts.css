@@ -179,6 +179,8 @@ p {
 
 .my-logo {
     width: 30px;
+    margin-left: 10px;
+    border-radius: 50px;
 }
 
 .left-section {
@@ -197,4 +199,20 @@ p {
     margin-top: 10px;
 }
 
-.right-section {}
+.right-section {
+    padding-top: 10px;
+    width: 150px;
+    display: grid;
+    grid-template-columns: 35px 35px 35px;
+    column-gap: 5px;
+}
+
+#camera {
+    width: 20px;
+    height: 20px;
+}
+
+#ring {
+    width: 20px;
+    height: 20px;
+}
