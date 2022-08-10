@@ -114,3 +114,39 @@ p {
 #vuk {
     border-radius: 50px;
 }
+
+#yt-logo {
+    width: 50px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#hamburger-meny {
+    width: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.search-button {
+    width: 50px;
+    display: inline-block;
+}
+
+#search-icon {
+    width: 50px;
+    display: inline-block;
+}
+
+#microphone {
+    width: 20px;
+}
+
+.microphone-div {
+    display: inline-block;
+    width: 30px;
+    background-color: gray;
+}
+
+#camer {
+    width: 30px;
+}
