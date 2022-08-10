@@ -116,25 +116,30 @@ p {
 }
 
 #yt-logo {
-    width: 50px;
+    width: 80px;
     overflow: hidden;
     display: inline-block;
+    margin-left: 30px;
 }
 
 #hamburger-meny {
     width: 20px;
     overflow: hidden;
     display: inline-block;
+    margin-left: 10px;
 }
 
 .search-button {
-    width: 50px;
+    width: 64px;
     display: inline-block;
+    margin-right: 10px;
+    height: 40px;
+    margin-top: 10px;
 }
 
 #search-icon {
-    width: 50px;
-    display: inline-block;
+    width: 20px;
+    height: 20px;
 }
 
 #microphone {
@@ -143,10 +148,51 @@ p {
 
 .microphone-div {
     display: inline-block;
-    width: 30px;
     background-color: gray;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    /*
+    padding-left: 16px;
+    padding-right: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 70px;
+    */
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    padding-bottom: 2px;
+    padding-right: 2 px;
 }
 
-#camer {
+#camera {
     width: 30px;
+}
+
+#ring {
+    width: 30px;
+}
+
+.my-logo {
+    width: 30px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.middle-section {
+    display: grid;
+    grid-template-columns: 360px 50px 30px;
+}
+
+.search-bar {
+    height: 34px;
+    margin-top: 10px;
 }
