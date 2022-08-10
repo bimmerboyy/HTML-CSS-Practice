@@ -166,7 +166,7 @@ p {
     width: 35px;
     border-radius: 30px;
     padding-bottom: 2px;
-    padding-right: 2 px;
+    padding-right: 2px;
 }
 
 #camera {
@@ -196,3 +196,5 @@ p {
     height: 34px;
     margin-top: 10px;
 }
+
+.right-section {}
