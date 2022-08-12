@@ -9,14 +9,13 @@ p {
 }
 
 .header {
-    height: 55px;
+    height: 54px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .left-section {
-    background-color: lightblue;
     width: 150px;
 }
 
@@ -116,7 +115,6 @@ p {
 }
 
 #yt-logo {
-    width: 80px;
     height: 20px;
     overflow: hidden;
     display: inline-block;
@@ -151,7 +149,6 @@ p {
 .microphone-div {
     display: inline-block;
     background-color: gray;
-    margin-left: 20px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -180,8 +177,8 @@ p {
 }
 
 .my-logo {
-    width: 30px;
-    margin-left: 10px;
+    width: 27px;
+    margin-left: 8px;
     border-radius: 50px;
 }
 
@@ -192,13 +189,13 @@ p {
 }
 
 .middle-section {
-    display: grid;
-    grid-template-columns: 360px 50px 30px;
+    display: flex;
 }
 
 .search-bar {
     height: 34px;
-    width: 538px;
+    display: flex;
+    flex: 1;
     margin-top: 10px;
 }
 
@@ -211,11 +208,13 @@ p {
 }
 
 #camera {
-    width: 20px;
+    margin-top: 4px;
+    width: 21px;
     height: 20px;
 }
 
 #ring {
+    margin-top: 5px;
     width: 20px;
     height: 20px;
 }
