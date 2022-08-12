@@ -117,16 +117,17 @@ p {
 
 #yt-logo {
     width: 80px;
+    height: 20px;
     overflow: hidden;
     display: inline-block;
-    margin-left: 30px;
 }
 
 #hamburger-meny {
-    width: 20px;
+    height: 24px;
     overflow: hidden;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .search-button {
@@ -140,6 +141,7 @@ p {
 #search-icon {
     width: 20px;
     height: 20px;
+    padding: 0;
 }
 
 #microphone {
@@ -196,6 +198,7 @@ p {
 
 .search-bar {
     height: 34px;
+    width: 538px;
     margin-top: 10px;
 }
 
