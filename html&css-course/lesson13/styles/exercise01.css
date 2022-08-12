@@ -1,0 +1,29 @@
+.pink {
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.item1 {
+    background-color: black;
+}
+
+.p-item1 {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-box {
+    display: flex;
+    height: 40px;
+}
