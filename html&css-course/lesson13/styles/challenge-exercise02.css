@@ -24,7 +24,6 @@ body {
     display: inline-block;
     width: 400px;
     padding-bottom: 25px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1), -2px -2px 3px rgba(0, 0, 0, 0.1);
 }
 
 .info {
@@ -96,4 +95,9 @@ body {
     grid-template-columns: 400px 400px 400px;
     width: 400px;
     display: block;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1), -2px -2px 3px rgba(0, 0, 0, 0.1);
+}
+
+#best-buy {
+    width: 100px;
 }
