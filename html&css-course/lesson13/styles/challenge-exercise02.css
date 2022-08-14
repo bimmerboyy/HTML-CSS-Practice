@@ -1,0 +1,99 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: Arial;
+}
+
+img {
+    height: 45px;
+    width: 45px;
+    border-radius: 100px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ios-gmail {
+    display: inline-block;
+    width: 400px;
+    padding-bottom: 25px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1), -2px -2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    display: flex;
+    height: 30px;
+}
+
+.content {
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.all-inboxes {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: rgb(161, 160, 160);
+}
+
+.image {
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 25px;
+}
+
+.header {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.text-of-header {
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    line-height: 20px;
+}
+
+.clock {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.time {
+    margin-bottom: -20px;
+    font-size: 12px;
+    color: rgb(161, 160, 160);
+    margin-right: 10px;
+}
+
+.content-of-gmail {
+    display: block;
+    margin-left: 66px;
+    margin-top: -13px;
+}
+
+.text {
+    display: block;
+    width: 350px;
+    font-size: 14px;
+    color: rgb(161, 160, 160);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    width: 400px;
+    display: block;
+}
