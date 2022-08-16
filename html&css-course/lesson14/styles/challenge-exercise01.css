@@ -1,12 +1,21 @@
 body {
-    height: 300px;
+    height: 3000px;
 }
 
-div {
+.right {
+    background-color: green;
+    color: white;
+    position: fixed;
+    right: 0;
+    height: 100px;
+    top: 0;
+}
+
+.entire-page {
+    background-color: rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
+    bottom: 0;
     right: 0;
     left: 0;
-    bottom: 0;
-    background-color: black;
 }
