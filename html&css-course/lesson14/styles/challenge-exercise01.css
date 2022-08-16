@@ -2,6 +2,15 @@ body {
     height: 600px;
 }
 
+p {
+    font-family: Arial;
+}
+
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .right {
     background-color: green;
     color: white;
@@ -25,8 +34,23 @@ body {
 }
 
 .model-title {
-    width: 500px;
-    height: 200px;
-    border: 1px solid black;
+    width: 350px;
+    height: 135px;
     background-color: white;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.model-text {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.model-div {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.this-div {
+    margin-bottom: 15px;
 }
