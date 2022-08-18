@@ -1,0 +1,84 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: Arial;
+}
+
+body {
+    height: 3000px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.profile-picture {
+    margin-left: 100px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.name-p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons {
+    margin-right: 70px;
+}
+
+.add-friend {
+    margin-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    background-color: #3e74d7;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.message {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: black;
+    background-color: #e4e5eb;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
