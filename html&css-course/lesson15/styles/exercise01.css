@@ -1,0 +1,21 @@
+body {
+    height: 3000px;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    background-color: black;
+    height: fit-content;
+    border-radius: 30px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left: 97%;
+}
+
+.X-div {
+    color: white;
+    font-weight: bold;
+}
