@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding-top: 80px;
-    padding-left: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(248, 248, 248);
 }
 
 p {
@@ -58,7 +60,7 @@ p {
     margin-top: 0;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .video-preview {
@@ -89,12 +91,12 @@ p {
 }
 
 .profile-picture {
-    width: 40px;
+    width: 36px;
     border-radius: 50px;
 }
 
 .thumbnail-row {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     position: relative;
 }
 
@@ -138,6 +140,7 @@ p {
     background-color: #f8f8f8;
     border: 1px solid rgb(177, 177, 177);
     margin-left: -1px;
+    position: relative;
 }
 
 #search-icon {
@@ -235,6 +238,9 @@ p {
     left: 0;
     bottom: 0;
     top: 55px;
+    z-index: 200;
+    background-color: white;
+    padding-top: 5px;
 }
 
 .video-time {
@@ -289,4 +295,92 @@ p {
 .sidebar-link>div {
     font-family: Roboto, Arial;
     font-size: 10px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.search-button .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -35px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    font-family: Roboto, Arial;
+}
+
+.search-button:hover .tooltip {
+    opacity: 1;
+}
+
+.microphone-div .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -35px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    font-family: Roboto, Arial;
+}
+
+.microphone-div:hover .tooltip {
+    opacity: 1;
+}
+
+.camera-div .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -35px;
+    right: 115px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    font-family: Roboto, Arial;
+}
+
+.camera-div:hover .tooltip {
+    opacity: 1;
+}
+
+.notifications-icon-container .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -35px;
+    right: -20px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    font-family: Roboto, Arial;
+}
+
+.notifications-icon-container:hover .tooltip {
+    opacity: 1;
 }
