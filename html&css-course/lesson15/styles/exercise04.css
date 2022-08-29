@@ -20,3 +20,17 @@
     bottom: 178px;
     color: white;
 }
+
+.time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    font-family: Arial;
+}
