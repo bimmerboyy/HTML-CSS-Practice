@@ -274,9 +274,19 @@ p {
 }
 
 .sidebar-link {
-    height: 76px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
 }
 
 .sidebar-link:hover {
     background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link>div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
 }
