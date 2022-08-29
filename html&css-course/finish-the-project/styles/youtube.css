@@ -272,3 +272,11 @@ p {
     border-radius: 10px;
     font-size: 11px;
 }
+
+.sidebar-link {
+    height: 76px;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+}
