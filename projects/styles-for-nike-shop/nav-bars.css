@@ -141,10 +141,27 @@ nav {
 
 .colors p {
     position: absolute;
-    top: 28px;
+    top: 30px;
     font-size: 12px;
 }
 
 #blue {
-    background-color: blue;
+    background-color: #1790c8;
+}
+
+#brown {
+    background-color: #825d41;
+}
+
+#grey {
+    background-color: #808080;
+}
+
+#orange {
+    background-color: #f36b26;
+}
+
+#white {
+    background-color: white;
+    border: 0.1px solid rgb(198, 198, 198);
 }
