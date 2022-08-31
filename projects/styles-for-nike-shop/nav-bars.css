@@ -25,11 +25,10 @@
 .span1 {
     font-size: 14px;
     margin-top: 2px;
-    margin-bottom: 4px;
 }
 
 .span2 {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 400;
 }
 
@@ -44,4 +43,108 @@
 .sort-by span {
     font-size: 30px;
     margin-bottom: 6px;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 16px 48px;
+    font-size: 16px;
+}
+
+.air-max-plus {
+    margin-top: 15px;
+    height: 72px;
+    width: 190px;
+    border-bottom: 0.1px solid rgb(213, 213, 213);
+}
+
+.pick-up {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 185px;
+}
+
+.find-store {
+    width: 190px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    border-bottom: 0.1px solid rgb(213, 213, 213);
+}
+
+.filter-by-store {
+    border-bottom: 1.5px solid black;
+    width: fit-content;
+    padding-bottom: 3px;
+}
+
+.choose-gender {
+    width: 190px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 0.1px solid rgb(213, 213, 213);
+}
+
+.gender {
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.sports-div {
+    padding-top: 10px;
+    width: 190px;
+    padding-bottom: 23px;
+    border-bottom: 0.1px solid rgb(213, 213, 213);
+}
+
+.sports {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin-bottom: 20px;
+}
+
+.color-div {
+    padding-top: 10px;
+}
+
+.color {
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.grid-colors {
+    display: grid;
+    grid-template-columns: 27px 27px 27px;
+    column-gap: 37px;
+    row-gap: 37px;
+    padding-left: 20px;
+}
+
+.colors {
+    position: relative;
+    background-color: black;
+    height: 27px;
+    border-radius: 30px;
+}
+
+.colors p {
+    position: absolute;
+    top: 28px;
+    font-size: 12px;
+}
+
+#blue {
+    background-color: blue;
 }
