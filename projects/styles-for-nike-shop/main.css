@@ -1,0 +1,32 @@
+.main-content {
+    padding-left: 300px;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    column-gap: 30px;
+}
+
+.nike-tn-card {}
+
+.nike-tn-card img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.model-name {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.type {
+    margin-bottom: 0;
+    color: gray;
+}
+
+.number-of-colors {
+    color: gray;
+}
