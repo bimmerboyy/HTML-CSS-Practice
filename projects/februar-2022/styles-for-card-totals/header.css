@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 90px;
+    height: 100px;
+    border-bottom: 0.1px solid rgb(201, 201, 201);
+    background-color: rgb(253, 253, 253);
+}
+
+.shop-info {
+    width: 1500px;
+}
+
+.left {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right {
+    font-size: 25px;
+}
+
+.shop-info button {
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
