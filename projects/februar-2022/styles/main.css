@@ -1,0 +1,39 @@
+.main-content {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    column-gap: 100px;
+}
+
+.image img {
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    width: 350px
+}
+
+.card {
+    border: none;
+}
+
+.info-about-product {
+    padding-top: 20px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.price p {
+    font-size: 16px;
+    color: rgb(69, 69, 69);
+    text-decoration: none;
+}
