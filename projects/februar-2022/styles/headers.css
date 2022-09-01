@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 90px;
+    height: 100px;
+    border-bottom: 0.1px solid rgb(201, 201, 201);
+    background-color: rgb(253, 253, 253);
+}
+
+.shop-info {
+    width: 1500px;
+}
+
+.left {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right {
+    font-size: 25px;
+}
+
+.shop-info button {
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+#home {
+    color: rgb(96, 96, 184);
+}
+
+.product-overview {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.gender-products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 63px;
+    padding-top: 40px;
+    padding-right: 60px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.left-side p {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.right-side button {
+    margin-left: 10px;
+    padding: 8px 20px 8px 17px;
+    background-color: white;
+    color: black;
+    border: 0.1px solid rgb(192, 192, 192);
+    color: rgb(93, 93, 93);
+}
+
+.fa-flight {
+    font-size: 30px;
+}
+
+.fa-regular {
+    font-size: 30px;
+}
+
+#all-products {
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+}
