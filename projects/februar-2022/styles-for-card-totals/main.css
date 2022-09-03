@@ -5,9 +5,9 @@
 }
 
 .product-info {
-    border: 1px solid black;
+    border: 0.1px solid rgb(188, 188, 188);
     width: 800px;
-    height: 500px;
+    margin-right: 100px;
 }
 
 .product-header {
@@ -39,6 +39,8 @@
 .product-we-buy {
     padding-top: 40px;
     padding-left: 50px;
+    border-bottom: 0.1px solid rgb(210, 210, 210);
+    height: 220px
 }
 
 .product-content img {
@@ -54,27 +56,136 @@
 
 .product-content p {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .count {
     display: flex;
     width: 100px;
-    border: 1px solid black;
+    border: 0.1px solid rgb(164, 164, 164);
     height: 40px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .minus {
-    border: 1px solid black;
-    width: 30px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .plus {
-    border: 1px solid black;
-    width: 30px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.number {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 0.1px solid rgb(188, 188, 188);
+    border-right: 0.1px solid rgb(177, 177, 177);
+    background-color: rgb(245, 245, 245);
+}
+
+.cupon-div {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-left: 30px;
+}
+
+.cupon-code {
+    padding: 7px 12px;
+    border-radius: 30px;
+    border: 0.1px solid rgb(195, 195, 195);
+    margin-right: 15px;
+}
+
+.cupon-code::placeholder {
+    margin-left: 20px;
+    padding: 20px 0px;
+}
+
+button {
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 50px;
+}
+
+.card-totals {
+    border: 0.1px solid rgb(220, 220, 220);
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.card-totals-text {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.subtotal {
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+    display: flex;
+    width: 400px;
+    border-bottom: 0.1px solid rgb(198, 198, 198);
+}
+
+.subtotal-text {
+    margin-right: 40px;
+}
+
+.shipping {
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+.description {
+    color: gray;
+    margin-top: 30px;
+}
+
+.shipping-div {
+    display: flex;
+}
+
+.calculate {
+    margin-left: 112px;
+    margin-top: 20px;
+    color: rgb(95, 95, 95);
+}
+
+.selectors {
+    padding-left: 115px;
+    padding-top: 10px;
+}
+
+.form-select {
+    width: 200px;
+    height: 50px;
+}
+
+.form-control {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.selectors button {
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
 }

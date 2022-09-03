@@ -27,7 +27,8 @@
             <span class="right">STORE</span>
         </div>
         <div class="shop-info">
-            <button>Home</button>
+            <a href="cosa-store.html"> <button>Home</button></a>
+
             <button>Shop</button>
             <button>Features</button>
             <button>Blog</button>
@@ -62,8 +63,58 @@
                     <p>$36.00</p>
                 </div>
             </div>
+            <div class="product-we-buy">
+                <div class="product-content">
+                    <img src="images/lcwaikiki-2.webp" alt="">
+                    <p>Fresh Strawberries</p>
+                    <p>$36.00</p>
+                    <div class="count">
+                        <div class="minus">
+                            &#8722;
+                        </div>
+                        <div class="number">1</div>
+                        <div class="plus">
+                            &#43;
+                        </div>
+                    </div>
+                    <p>$36.00</p>
+                </div>
+            </div>
+            <div class="cupon-div">
+                <input type="text" placeholder="Cupon Code" class="cupon-code">
+                <button>APPLY CUPON</button>
+                <button>UPDATE CART</button>
+            </div>
         </div>
+
         <div class="card-totals">
+            <div class="card-totals-text">CART TOTALS</div>
+            <div class="subtotal">
+                <p class="subtotal-text">Subtotal: </p>
+                <p>$79.65</p>
+            </div>
+            <div class="shipping-div">
+                <div class="shipping">
+                    Shipping:
+                </div>
+                <div class="description">
+                    There are no shipping <br> methods available. <br>Please double check your <br>adress or contact us if <br> you need any help.
+                </div>
+            </div>
+            <div class="calculate">
+                CALCULATE SHIPPING
+            </div>
+            <div class="selectors">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select a country</option>
+                    <option value="1">Serbia</option>
+                    <option value="2">Bosnia</option>
+                    <option value="3">Montenegro</option>
+                  </select>
+                <input class="form-control" type="text" value="State / country" style="background-color: white;" aria-label="Disabled input example" disabled readonly>
+                <input class="form-control" type="text" value="Postcode / Zip" style="background-color: white;" aria-label="Disabled input example" disabled readonly>
+                <button>UPDATE TOTALS</button>
+            </div>
 
         </div>
     </div>
