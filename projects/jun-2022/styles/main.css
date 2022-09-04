@@ -1,0 +1,71 @@
+.grid-cards {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    column-gap: 200px;
+    padding-top: 50px;
+    padding-left: 170px;
+}
+
+.buyer-card {
+    padding-top: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15), -1px -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.buyer-card img {
+    height: 80px;
+    border-radius: 100px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.nadoknada {
+    margin-left: 80px;
+}
+
+.nazalost {
+    margin-left: 30px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: orange;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.name p {
+    margin-bottom: 7px;
+}
+
+.type {
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.type p {
+    margin-bottom: 0;
+}
+
+.cena {
+    margin-left: 120px;
+}
+
+.zamena {
+    margin-left: 15px;
+}
