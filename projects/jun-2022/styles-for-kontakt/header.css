@@ -34,3 +34,47 @@
 #kontakt {
     color: orange;
 }
+
+.form-label {
+    color: gray;
+}
+
+.contact-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.contact-form {
+    width: 1000px;
+    background-color: #f8f9fb;
+    padding: 20px 50px;
+    height: 540px;
+    position: relative;
+}
+
+.mb-3 {
+    height: 50px;
+}
+
+#exampleFormControlTextarea1 {
+    height: 200px;
+}
+
+#exampleFormControlInput1 {
+    height: 55px;
+}
+
+.form-label {
+    padding-bottom: 0;
+}
+
+.contact-form button {
+    padding: 10px 10px;
+    background-color: #ff932e;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    position: absolute;
+    bottom: 45px;
+}
