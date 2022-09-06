@@ -7,7 +7,7 @@
         }
         
         .left-section img {
-            width: 800px;
+            width: 750px;
             height: 400px;
             object-fit: cover;
         }
@@ -76,4 +76,26 @@
             width: 450px;
             border-radius: 30px;
             font-weight: bold;
+        }
+        
+        @media(max-width:1150px) {
+            ul {
+                width: 300px;
+            }
+        }
+        
+        @media(max-width:1000px) {
+            ul {
+                width: 250px;
+            }
+        }
+        
+        @media(max-width:900px) {
+            .main {
+                display: flex;
+                flex-direction: column;
+            }
+            ul {
+                width: 400px;
+            }
         }

@@ -1,71 +1,96 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 57px;
-    background-color: #192f59;
-}
-
-.left-side {
-    width: 430px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.eng {
-    margin-left: 20px;
-}
-
-.right-side {
-    width: 900px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.right-side button {
-    font-size: 13.5px;
-    border: none;
-    background-color: transparent;
-    color: #919bad;
-    transition: color, 0.3s;
-    margin-right: 5px;
-}
-
-.right-side button:hover {
-    color: white;
-}
-
-.second-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 113px;
-    border-bottom: 0.1px solid rgb(230, 230, 230);
-}
-
-.dunp-logo {
-    margin-right: 60px;
-}
-
-.second-header button {
-    margin-right: 30px;
-    padding-bottom: 30px;
-    background-color: transparent;
-    border: none;
-    margin-top: 30px;
-    font-size: 15px;
-}
-
-.second-header button:hover {
-    border-bottom: 7px solid #edc872;
-    margin-top: 37px;
-}
-
-.second-header img {
-    width: 300px;
-}
-
-#pocetna {
-    color: #edc872;
-    border-bottom: 7px solid #edc872;
-}
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 57px;
+        background-color: #192f59;
+    }
+    
+    .left-side {
+        width: 430px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .eng {
+        margin-left: 20px;
+    }
+    
+    .right-side {
+        width: 900px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .right-side button {
+        font-size: 13.5px;
+        border: none;
+        background-color: transparent;
+        color: #919bad;
+        transition: color, 0.3s;
+        margin-right: 5px;
+    }
+    
+    .right-side button:hover {
+        color: white;
+    }
+    
+    .second-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 113px;
+        border-bottom: 0.1px solid rgb(230, 230, 230);
+    }
+    
+    .dunp-logo {
+        margin-right: 60px;
+    }
+    
+    .second-header button {
+        margin-right: 30px;
+        padding-bottom: 30px;
+        background-color: transparent;
+        border: none;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    
+    .second-header button:hover {
+        border-bottom: 7px solid #edc872;
+        margin-top: 37px;
+    }
+    
+    .second-header img {
+        width: 300px;
+    }
+    
+    #pocetna {
+        color: #edc872;
+        border-bottom: 7px solid #edc872;
+    }
+    
+    @media (max-width: 1400px) {
+        .media-for-buttons {
+            padding-top: 200px;
+            display: flex;
+        }
+        .second-header {
+            height: 300px;
+        }
+    }
+    
+    @media (max-width: 1200px) {
+        .second-header button {
+            display: none!important;
+        }
+        .header {
+            display: none!important;
+        }
+        .second-header {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 113px;
+        }
+    }
