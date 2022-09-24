@@ -1,0 +1,59 @@
+.header1 {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: #A30003;
+}
+
+.content {
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+}
+
+.eng {
+    margin-right: 30px;
+}
+
+.eng i {
+    margin-right: 10px;
+}
+
+.eng a {
+    color: white;
+    text-decoration: none;
+}
+
+.my-courses i {
+    margin-right: 10px;
+}
+
+.my-courses a {
+    color: white;
+    text-decoration: none;
+}
+
+.name {
+    margin-right: 40px;
+}
+
+.name img {
+    height: 27px;
+    width: 30px;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.name a {
+    color: white;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+}
