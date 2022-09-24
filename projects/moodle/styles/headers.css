@@ -6,7 +6,7 @@
 }
 
 .content {
-    width: 1500px;
+    width: 1460px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,24 +22,28 @@
 
 .eng i {
     margin-right: 10px;
+    font-size: 15px;
 }
 
 .eng a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .my-courses i {
     margin-right: 10px;
+    font-size: 16px;
 }
 
 .my-courses a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .name {
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .name img {
@@ -52,8 +56,20 @@
 .name a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .right {
     display: flex;
+}
+
+.email {
+    margin-right: 20px;
+}
+
+.email i {
+    font-size: 18px;
+    color: white;
+    margin-top: 7px;
+    margin-right: 10px;
 }
