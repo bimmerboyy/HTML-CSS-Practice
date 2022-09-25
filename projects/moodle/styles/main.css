@@ -87,6 +87,7 @@
     padding-right: 15px;
     padding-left: 6px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .main-menu .upper-part {
@@ -141,4 +142,100 @@
 
 .novosti p {
     color: #A30003;
+}
+
+.navigation {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navigation .first-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1px solid rgb(187, 187, 187);
+}
+
+.navigation .first-part p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #A30003;
+}
+
+.instance-header {
+    display: flex;
+}
+
+.instance-header i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #A30003;
+}
+
+.navigation .navigators {
+    margin-bottom: 10px;
+}
+
+.second-part {
+    padding-top: 20px;
+}
+
+.second-part .home {
+    display: flex;
+}
+
+.second-part .home p {
+    font-size: 19px;
+    color: #A30003;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.second-part .home i {
+    margin-right: 8px;
+    color: #A30003;
+    margin-top: 3px;
+}
+
+.second-part .dashboard {
+    display: flex;
+}
+
+.second-part .dashboard i {
+    margin-right: 8px;
+    color: #A30003;
+    margin-top: 3px;
+}
+
+.second-part .dashboard p {
+    font-size: 19px;
+    color: #A30003;
+    margin-bottom: 0;
+}
+
+.site-pages {
+    padding-left: 20px;
+}
+
+.site-page {
+    display: flex;
+}
+
+.site-page i,
+.my-courses i {
+    margin-right: 8px;
+    color: #A30003;
+    margin-top: 3px;
+}
+
+.site-page p,
+.my-courses p {
+    font-size: 19px;
+    color: #A30003;
+    margin-bottom: 0;
+}
+
+.my-courses {
+    display: flex;
 }
