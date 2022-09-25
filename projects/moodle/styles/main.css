@@ -1,0 +1,133 @@
+.main {
+    background-image: url(../images/dunp.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 2000px;
+    height: 100vh;
+    z-index: 2;
+    padding-top: 20px;
+}
+
+.images-of-amf {
+    padding: 10px;
+    background-color: white;
+}
+
+.images-of-amf img {
+    height: 450px;
+    width: 550px;
+}
+
+.df-for-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-grid-for-su {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    column-gap: 30px;
+    padding-left: 240px;
+    padding-top: 20px;
+}
+
+.state-university {
+    background-color: white;
+    height: 150px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.state-university {
+    font-size: 20px;
+    color: #A30003;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.upper-part {
+    display: flex;
+}
+
+.star {
+    margin-right: 20px;
+}
+
+.down-part {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 75px;
+}
+
+.down-part button {
+    background-color: #A30003;
+    color: white;
+    border: none;
+    padding: 3px 15px;
+}
+
+.main-content-df {
+    display: flex;
+    padding-left: 240px;
+}
+
+.nav-bars {
+    padding-top: 30px;
+}
+
+.main-menu {
+    background-color: white;
+    width: 350px;
+    height: 110px;
+    padding-top: 6px;
+    padding-right: 15px;
+    padding-left: 6px;
+}
+
+.main-menu .upper-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1px solid rgb(203, 203, 203);
+}
+
+.main-menu .hamburger-menu {
+    display: flex;
+}
+
+.main-menu .hamburger-menu i {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #A30003;
+}
+
+.main-menu .hamburger-menu p {
+    font-size: 18px;
+    color: #A30003;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.navigators {
+    display: flex;
+}
+
+.navigators .swich-minus {
+    margin-left: 5px;
+}
+
+.navigators .swich-minus img {
+    height: 15px;
+}
+
+.main-menu .down-part {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.novosti {
+    display: flex;
+}
