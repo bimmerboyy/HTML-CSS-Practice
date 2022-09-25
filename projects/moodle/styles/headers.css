@@ -3,6 +3,7 @@
     justify-content: center;
     height: 50px;
     background-color: #A30003;
+    width: 100%;
 }
 
 .content {
@@ -72,4 +73,20 @@
     color: white;
     margin-top: 7px;
     margin-right: 10px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.header2 .content {
+    width: 1500px;
+}
+
+.e-learning h1 {
+    color: #FFB005;
+    font-size: 70px;
+    font-weight: bold;
 }
