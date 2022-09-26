@@ -332,4 +332,25 @@
             font-size: 35px;
             color: #6B001D;
             font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .alumni-forum {
+            display: flex;
+        }
+        
+        .alumni-forum .info-svg {
+            margin-right: 10px;
+            margin-left: 50px;
+        }
+        
+        .alumni-forum p {
+            margin-bottom: 0;
+            color: #710406;
+            font-size: 18px;
+            margin-top: 7px;
+        }
+        
+        .alumni-forum .info-svg img {
+            height: 30px;
         }
