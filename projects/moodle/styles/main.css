@@ -148,6 +148,7 @@
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .navigation .first-part {
@@ -238,4 +239,8 @@
 
 .my-courses {
     display: flex;
+}
+
+.calendar {
+    border: 1px solid black;
 }
