@@ -4,5 +4,9 @@
 }
 
 body {
-    font-family: Roboto, Arial;
+    font-family: Roboto, Verdana;
+}
+
+p {
+    font-family: Roboto, Verdana;
 }
