@@ -1,0 +1,255 @@
+    .main {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .first-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .exam {
+        width: 1000px;
+        height: 300px;
+    }
+    
+    .exam img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding-top: 3px;
+    }
+    
+    .links a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .first-link {
+        margin-right: 5px;
+    }
+    
+    .main-content {
+        width: 1000px;
+        border: 1px solid black;
+        display: flex;
+    }
+    
+    .main-content-df {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .moji-ispiti {
+        width: 500px;
+        padding-top: 20px;
+        background-color: #ffbe00;
+    }
+    
+    .moji-ispiti .firts-part {
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid rgb(25, 124, 3);
+        padding-bottom: 20px;
+    }
+    
+    .moji-ispiti .firts-part p {
+        font-size: 40px;
+    }
+    
+    .raspored-ispita {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    
+    table {
+        width: 100%;
+        padding-bottom: 50px;
+        padding-left: 30px;
+    }
+    
+    table tr th {
+        color: white;
+        background-color: black;
+        height: 50px;
+    }
+    
+    table tr td {
+        font-size: 18px;
+        height: 50px;
+        border-bottom: 1px solid green;
+    }
+    
+    .polozeni-ispiti {
+        background: #00a94e;
+    }
+    
+    .polozeni-p {
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        padding-top: 30px;
+        border-bottom: 2px solid #000;
+        padding-bottom: 18px;
+    }
+    
+    .polozeni-p p {
+        font-size: 35px;
+    }
+    
+    .svaka-cas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+    .svaka-cas p {
+        font-weight: bold;
+    }
+    
+    .polozeni-ispiti .down-part {
+        padding-top: 50px;
+        display: flex;
+    }
+    
+    .veb-dizajn {
+        margin-bottom: 20px;
+    }
+    
+    .polozeni-ispiti .druga-lista {
+        padding-top: 30px;
+    }
+    
+    ul li {
+        margin-bottom: 10px;
+    }
+    
+    ol li {
+        margin-bottom: 10px;
+    }
+    
+    .img {
+        margin-left: 130px;
+    }
+    
+    .img img {
+        width: 200px;
+    }
+    
+    .exam-img {
+        width: 1000px;
+        height: 300px;
+    }
+    
+    .exam-img img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .glavni {
+        padding-top: 100px;
+    }
+    
+    .prvi-deo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .drugi-part {
+        display: flex;
+        justify-content: flex-start;
+        width: 1000px;
+        margin-left: 300px;
+    }
+    
+    .second-part-df {
+        justify-content: center;
+    }
+    
+    .image-gallery {
+        margin-left: 500px;
+        margin-top: 10px;
+    }
+    
+    .image-gallery p {
+        font-size: 30px;
+    }
+    
+    .the-thimbnail {
+        margin-left: 500px;
+        margin-top: 10px;
+        color: rgb(63, 63, 63);
+    }
+    
+    .display-grid {
+        padding-left: 450px;
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        column-gap: 50px;
+    }
+    
+    .card p {
+        color: rgb(76, 168, 199);
+    }
+    
+    .slika-atrakcije {
+        padding-top: 30px;
+    }
+    
+    .slika-atrakcije img {
+        height: 170px;
+        width: 200px;
+    }
+    
+    @media (max-width:1600px) {
+        .display-grid {
+            padding-left: 230px;
+        }
+        .the-thimbnail {
+            margin-left: 230px;
+        }
+        .image-gallery {
+            margin-left: 250px;
+            margin-top: 10px;
+        }
+    }
+    
+    @media (max-width: 1400px) {
+        .display-grid {
+            padding-top: 50px;
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+            column-gap: 40px;
+        }
+    }
+    
+    @media (max-width: 1200px) {
+        .display-grid {
+            padding-top: 50px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 30px;
+        }
+    }
+    
+    @media (max-width: 1000px) {
+        .display-grid {
+            display: block;
+        }
+    }
