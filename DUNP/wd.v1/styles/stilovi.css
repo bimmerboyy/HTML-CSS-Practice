@@ -7,8 +7,26 @@ body {
     margin: 0 auto;
 }
 
-.left {}
+.left {
+    float: left;
+    width: 300px;
+    background-color: #c0c0c0;
+    color: #ac2929;
+}
 
-.right {}
+.left ul {
+    text-decoration: none;
+}
+
+.right {
+    float: left;
+    width: 450px;
+}
 
 .footer {}
+
+.right img {
+    width: 500px;
+    ;
+    height: 300px;
+}
